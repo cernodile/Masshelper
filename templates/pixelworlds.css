@@ -1,0 +1,78 @@
+body {
+  background: url(/pixelworlds/background);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: #000824;
+  font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
+  min-height: 97vmin;
+}
+h4 span {
+  color: #ccc;
+}
+#search {
+  margin: 10px;
+  padding: 3px;
+}
+#search, input[type=submit] {
+  background: linear-gradient(#123152, #205893);
+  border: 4px solid #4BD8F6;
+border-radius: 7px;
+color: #fff;
+font-weight: bold;
+outline: none;
+}
+#result {
+  text-align: center;
+}
+#result pre {
+    text-align: left;
+    background: linear-gradient(#123152, #205893);
+    border: 6px solid #4BD8F6;
+    margin: 0 5% 2% 5%;
+    border-radius: 9px;
+    text-shadow: #000 1px 1px 2px;
+}
+#result pre code {
+  margin: 10px;
+  display: block;
+  white-space: pre-wrap;
+}
+.fail {
+  color: red;
+}
+form {
+  font-weight: bold;
+}
+#options {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  background: linear-gradient(#123152, #205893);
+  border: 5px solid #4BD8F6;
+  border-radius: 7px;
+}
+.success {
+  color: #fff;
+}
+pre, code {
+  font-family: monospace;
+  font-size: 1.1em;
+}
+ul {
+  list-style-type: none;
+  margin: 0 10%;
+  padding: 0;
+  margin-bottom: 10px;
+}
+ul a {
+  display: inline-block;
+  padding: 3px 5px;
+  margin: 3px;
+  width: auto;
+  background: #1F9DCA;
+  border-radius: 6px;
+  color: #FFFFFF;
+}
+ul a:hover {
+  color: #ccc;
+}

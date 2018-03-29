@@ -1,0 +1,19 @@
+{
+  "name": "masshelper",
+  "version": "0.0.3",
+  "readme": "",
+  "description": "Masshelper is the new, and best way to look up how to massproduce a certain splicable item!",
+  "author": {
+    "name": "Joann Mõndresku",
+    "email": "joann@cernodile.com",
+    "url": "https://www.cernodile.com"
+  },
+  "repository": "",
+  "engines": {
+    "node": "^0.5.x",
+    "npm": ">=3.x.x"
+  },
+  "dependencies": {
+    "archy": "^1.0.0"
+  }
+}

@@ -1,0 +1,133 @@
+body {
+	background: fixed center bottom/1024px 600px repeat-x url(https://growtopiagame.com/images/background.png), url(https://growtopiagame.com/images/sun.png) no-repeat 90% 5%;
+    background-color: #60D7F2;
+      min-height: 100vmin;
+      color: #fff;
+      font-family: "Century Gothic",Verdana,Arial;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      text-shadow: 2px 2px 0px #000000;
+}
+.sprite {
+  overflow: hidden;
+      width: 32px;
+      height: 32px;
+      display: inline-block;
+      vertical-align: middle;
+}
+.sprite.Seed {
+  width: 16px;
+  height: 16px;
+}
+*::-webkit-input-placeholder {
+    color: #d7c6a4;
+}
+*:-moz-placeholder {
+    /* FF 4-18 */
+    color: #d7c6a4;
+}
+*::-moz-placeholder {
+    /* FF 19+ */
+    color: #d7c6a4;
+}
+*:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #d7c6a4;
+}
+a {
+  color: #FFFF66;
+  font-weight: bold;
+  text-decoration: none;
+}
+h4 span {
+  color: #d5f6fd;
+}
+.warning {
+  color: rgb(255, 0, 0);
+  font-size: 3em;
+}
+span.small {
+  font-size: 80%;
+}
+#search {
+  margin: 10px;
+  padding: 3px;
+}
+#search, input[type=submit] {
+  background: rgba(38, 125, 158, 0.54);
+border: 4px solid rgba(165, 227, 251, 1);
+border-radius: 7px;
+color: #FCE6BA;
+font-family: Century Gothic, sans-serif;
+font-weight: bold;
+outline: none;
+}
+#result {
+  text-align: center;
+}
+#result pre {
+    text-align: left;
+    background: rgba(38, 125, 158, 0.54);
+    border: 6px solid rgba(165, 227, 251, 1);
+    margin: 0 5% 2% 5%;
+    border-radius: 9px;
+    text-shadow: #000 1px 1px 2px;
+}
+#result pre code {
+  margin: 10px;
+  display: block;
+  white-space: pre-wrap;
+}
+.fail {
+  color: red;
+}
+form {
+  font-weight: bold;
+}
+#options {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  background: rgba(38, 125, 158, 0.54);
+  border: 5px solid rgba(165, 227, 251, 1);
+  border-radius: 7px;
+}
+.success {
+  color: #FCE6BA;
+}
+pre, code {
+  font-family: monospace;
+  font-size: 1.1em;
+}
+ul {
+  list-style-type: none;
+  margin: 0 10%;
+  padding: 0;
+  margin-bottom: 10px;
+}
+ul a {
+  display: inline-block;
+  padding: 3px 5px;
+  margin: 3px;
+  width: auto;
+  background: #783A88;
+  border-radius: 6px;
+  color: #FFFFFF;
+}
+ul a:hover {
+  color: #BB9CC3;
+}
+ul a:visited {
+  background: #637283;
+}
+ul a:visited:hover {
+  color: #B1B8C1;
+}
+.comment {
+  color: #ffc;
+  display: block;
+}
+.comment .hl {
+  color: #0af;
+}

@@ -1,0 +1,2074 @@
+{
+	"items":{
+		"granite":{
+            "splicable": false,
+            "farmable": true,
+            "rarity": 1
+        },
+		"lava": {
+            "splicable": false,
+            "farmable": true,
+            "rarity": 1
+        },
+		"lunar soil": {
+            "splicable": false,
+            "farmable": true,
+            "rarity": 1
+        },
+		"marble": {
+            "splicable": false,
+            "farmable": true,
+            "rarity": 1
+        },
+		"martian rock": {
+            "splicable": false,
+            "farmable": true,
+            "rarity": 1
+        },
+		"martian soil": {
+            "splicable": false,
+            "farmable": true,
+            "rarity": 1
+        },
+		"moon rock": {
+            "splicable": false,
+            "farmable": true,
+            "rarity": 1
+        },
+		"moon background": {
+            "splicable": false,
+            "farmable": true,
+            "rarity": 1
+        },
+		"obsidian": {
+            "splicable": false,
+            "farmable": true,
+            "rarity": 1
+        },
+		"sand": {
+            "splicable": false,
+            "farmable": true,
+            "rarity": 5
+        },
+		"sandstone": {
+            "splicable": false,
+            "farmable": true,
+            "rarity": 7
+        },
+		"sandy cave wall": {
+            "splicable": false,
+            "farmable": true,
+            "rarity": 7
+        },
+		"soil block": {
+            "splicable": false,
+            "farmable": true,
+            "rarity": 1
+        },
+		"water": {
+            "splicable": false,
+            "farmable": true,
+            "rarity": 33
+        },
+		"quicksand": {
+			"splicable": false,
+			"farmable": true,
+			"rarity": 2
+		},
+		"cave wall": {
+            "splicable": false,
+            "farmable": true,
+            "rarity": 1
+        },
+		"black brick": {
+			"splicable": true,
+			"recipe": [
+				"soil block",
+				"obsidian"
+			],
+			"farmable": false,
+			"rarity": 2
+		},
+		"glass block": {
+			"splicable": true,
+			"recipe": [
+				"sand",
+				"lava"
+			],
+			"farmable": false,
+			"rarity": 6
+		},
+		"magic stuff": {
+			"splicable": true,
+			"recipe": [
+				"marble",
+				"obsidian"
+			],
+			"farmable": true,
+			"rarity": 2
+		},
+		"metal plate": {
+			"splicable": true,
+			"recipe": [
+				"lava",
+				"obsidian"
+			],
+			"farmable": false,
+			"rarity": 2
+		},
+		"red brick": {
+			"splicable": true,
+			"recipe": [
+				"soil block",
+				"granite"
+			],
+			"farmable": true,
+			"rarity": 2
+		},
+		"white brick": {
+			"splicable": true,
+			"recipe": [
+				"soil block",
+				"marble"
+			],
+			"farmable": true,
+			"rarity": 2
+		},
+		"wood block": {
+			"splicable": true,
+			"recipe": [
+				"lava",
+				"soil block"
+			],
+			"farmable": true,
+			"rarity": 2
+		},
+		"yellow brick": {
+			"splicable": true,
+			"recipe": [
+				"soil block",
+				"sandstone"
+			],
+			"farmable": false,
+			"rarity": 6
+		},
+		"black block": {
+			"splicable": true,
+			"recipe": [
+				"black brick",
+				"magic stuff"
+			],
+			"farmable": false,
+			"rarity": 4
+		},
+		"blue block": {
+			"splicable": true,
+			"recipe": [
+				"red brick",
+				"yellow block"
+			],
+			"farmable": true,
+			"rarity": 8
+		},
+		"grey brick": {
+			"splicable": true,
+			"recipe": [
+				"white brick",
+				"black block"
+			],
+			"farmable": false,
+			"rarity": 4
+		},
+		"red block": {
+			"splicable": true,
+			"recipe": [
+				"red brick",
+				"magic stuff"
+			],
+			"farmable": false,
+			"rarity": 4
+		},
+		"white block": {
+			"splicable": true,
+			"recipe": [
+				"white brick",
+				"magic stuff"
+			],
+			"farmable": true,
+			"rarity": 4
+		},
+		"wood panel": {
+			"splicable": true,
+			"recipe": [
+				"wood block",
+				"red wallpaper"
+			],
+			"farmable": false,
+			"rarity": 4
+		},
+		"wood wall": {
+			"splicable": true,
+			"recipe": [
+				"wood block",
+				"cave wall"
+			],
+			"farmable": false,
+			"rarity": 3
+		},
+		"yellow block": {
+			"splicable": true,
+			"recipe": [
+				"yellow brick",
+				"magic stuff"
+			],
+			"farmable": false,
+			"rarity": 8
+		},
+		"clear jelly": {
+			"splicable": true,
+			"recipe": [
+				"mushroom",
+				"lava lamp"
+			],
+			"farmable": false,
+			"rarity": 6
+		},
+		"green block": {
+			"splicable": true,
+			"recipe": [
+				"blue block",
+				"yellow block"
+			],
+			"farmable": false,
+			"rarity": 6
+		},
+		"grey block": {
+			"splicable": true,
+			"recipe": [
+				"white block",
+				"black block"
+			],
+			"farmable": false,
+			"rarity": 6
+		},
+		"iron block": {
+			"splicable": true,
+			"recipe": [
+				"white block",
+				"magic stuff"
+			],
+			"farmable": true,
+			"rarity": 5
+		},
+		"light blue block": {
+			"splicable": true,
+			"recipe": [
+				"blue block",
+				"white block"
+			],
+			"farmable": false,
+			"rarity": 6
+		},
+		"orange block": {
+			"splicable": true,
+			"recipe": [
+				"red block",
+				"yellow block"
+			],
+			"farmable": false,
+			"rarity": 12
+		},
+		"pink block": {
+			"splicable": true,
+			"recipe": [
+				"red block",
+				"white block"
+			],
+			"farmable": false,
+			"rarity": 6
+		},
+		"purple block": {
+			"splicable": true,
+			"recipe": [
+				"red block",
+				"blue block"
+			],
+			"farmable": false,
+			"rarity": 12
+		},
+		"pineapple block": {
+			"splicable": true,
+			"recipe": [
+				"sunflower",
+				"yellow block"
+			],
+			"farmable": false,
+			"rarity": 16
+		},
+		"brown block": {
+			"splicable": true,
+			"recipe": [
+				"purple block",
+				"orange block"
+			],
+			"farmable": false,
+			"rarity": 24
+		},
+		"spike trap": {
+			"splicable": true,
+			"recipe": [
+				"iron block",
+				"pink block"
+			],
+			"farmable": false,
+			"rarity": 8
+		},
+		"yellow jelly": {
+			"splicable": true,
+			"recipe": [
+				"pineapple block",
+				"clear jelly"
+			],
+			"farmable": false,
+			"rarity": 8
+		},
+		"kiwi block": {
+			"splicable": true,
+			"recipe": [
+				"purple block",
+				"corn"
+			],
+			"farmable": false,
+			"rarity": 22
+		},
+		"strawberry block": {
+			"splicable": true,
+			"recipe": [
+				"red block",
+				"corn"
+			],
+			"farmable": false,
+			"rarity": 14
+		},
+		"blue jelly": {
+			"splicable": true,
+			"recipe": [
+				"kiwi block",
+				"clear jelly"
+			],
+			"farmable": false,
+			"rarity": 33
+		},
+		"dotted pink block": {
+			"splicable": true,
+			"recipe": [
+				"pink block",
+				"strawberry block"
+			],
+			"farmable": false,
+			"rarity": 9
+		},
+		"fire trap": {
+			"splicable": true,
+			"recipe": [
+				"spike trap",
+				"oven"
+			],
+			"farmable": false,
+			"rarity": 10
+		},
+		"red jelly": {
+			"splicable": true,
+			"recipe": [
+				"strawberry block",
+				"clear jelly"
+			],
+			"farmable": false,
+			"rarity": 25
+		},
+		"cactus block": {
+			"splicable": true,
+			"recipe": [
+				"spike trap",
+				"pineapple block"
+			],
+			"farmable": false,
+			"rarity": 9
+		},
+		"buzzsaw": {
+			"splicable": true,
+			"recipe": [
+				"spike trap",
+				"metal plate"
+			],
+			"farmable": false,
+			"rarity": 16
+		},
+		"pink jelly": {
+			"splicable": true,
+			"recipe": [
+				"red jelly",
+				"clear jelly"
+			],
+			"farmable": false,
+			"rarity": 999
+		},
+		"green jelly": {
+			"splicable": true,
+			"recipe": [
+				"yellow jelly",
+				"blue jelly"
+			],
+			"farmable": false,
+			"rarity": 60
+		},
+		"purple jelly": {
+			"splicable": true,
+			"recipe": [
+				"red jelly",
+				"blue jelly"
+			],
+			"farmable": false,
+			"rarity": 58
+		},
+		"light blue jelly": {
+			"splicable": true,
+			"recipe": [
+				"clear jelly",
+				"blue jelly"
+			],
+			"farmable": false,
+			"rarity": 44
+		},
+		"ice block": {
+			"splicable": true,
+			"recipe": [
+				"fire trap",
+				"water"
+			],
+			"farmable": false,
+			"rarity": 55
+		},
+		"red wallpaper": {
+			"splicable": true,
+			"recipe": [
+				"cave wall",
+				"lava"
+			],
+			"farmable": false,
+			"rarity": 2
+		},
+		"green tile": {
+			"splicable": true,
+			"recipe": [
+				"grass",
+				"marble"
+			],
+			"farmable": false,
+			"rarity": 3
+		},
+		"stone background": {
+			"splicable": true,
+			"recipe": [
+				"red wallpaper",
+				"granite"
+			],
+			"farmable": false,
+			"rarity": 3
+		},
+		"flower wallpaper": {
+			"splicable": true,
+			"recipe": [
+				"lily",
+				"red wallpaper"
+			],
+			"farmable": false,
+			"rarity": 6
+		},
+		"red tile": {
+			"splicable": true,
+			"recipe": [
+				"rose",
+				"marble"
+			],
+			"farmable": false,
+			"rarity": 4
+		},
+		"white tile": {
+			"splicable": true,
+			"recipe": [
+				"lily",
+				"marble"
+			],
+			"farmable": false,
+			"rarity": 5
+		},
+		"window frame": {
+			"splicable": true,
+			"recipe": [
+				"glass block",
+				"wood panel"
+			],
+			"farmable": false,
+			"rarity": 10
+		},
+		"wooden background": {
+			"splicable": true,
+			"recipe": [
+				"wood wall",
+				"red wallpaper"
+			],
+			"farmable": false,
+			"rarity": 5
+		},
+		"yellow tile": {
+			"splicable": true,
+			"recipe": [
+				"sunflower",
+				"marble"
+			],
+			"farmable": false,
+			"rarity": 9
+		},
+		"glass tile": {
+			"splicable": true,
+			"recipe": [
+				"window frame",
+				"marble"
+			],
+			"farmable": false,
+			"rarity": 11
+		},
+		"orange tile": {
+			"splicable": true,
+			"recipe": [
+				"red tile",
+				"yellow tile"
+			],
+			"farmable": false,
+			"rarity": 8
+		},
+		"pink tile": {
+			"splicable": true,
+			"recipe": [
+				"white tile",
+				"red tile"
+			],
+			"farmable": false,
+			"rarity": 8
+		},
+		"shoji": {
+			"splicable": true,
+			"recipe": [
+				"door",
+				"flower wallpaper"
+			],
+			"farmable": false,
+			"rarity": 9
+		},
+		"blue tile": {
+			"splicable": true,
+			"recipe": [
+				"kiwi block",
+				"marble"
+			],
+			"farmable": false,
+			"rarity": 6
+		},
+		"brown brick wallpaper": {
+			"splicable": true,
+			"recipe": [
+				"shoji",
+				"brown block"
+			],
+			"farmable": false,
+			"rarity": 33
+		},
+		"clown wallpaper": {
+			"splicable": true,
+			"recipe": [
+				"garden gnome",
+				"flower wallpaper"
+			],
+			"farmable": false,
+			"rarity": 21
+		},
+		"dungeon wall": {
+			"splicable": true,
+			"recipe": [
+				"clay pot",
+				"grey block"
+			],
+			"farmable": false,
+			"rarity": 9
+		},
+		"red brick wallpaper": {
+			"splicable": true,
+			"recipe": [
+				"strawberry block",
+				"shoji"
+			],
+			"farmable": false,
+			"rarity": 10
+		},
+		"yellow brick wallpaper": {
+			"splicable": true,
+			"recipe": [
+				"shoji",
+				"pineapple block"
+			],
+			"farmable": false,
+			"rarity": 25
+		},
+		"grey brick wallpaper": {
+			"splicable": true,
+			"recipe": [
+				"shoji",
+				"grey block"
+			],
+			"farmable": false,
+			"rarity": 17
+		},
+		"light wooden wallpaper": {
+			"splicable": true,
+			"recipe": [
+				"shoji",
+				"red jelly"
+			],
+			"farmable": false,
+			"rarity": 34
+		},
+		"starry wallpaper": {
+			"splicable": true,
+			"recipe": [
+				"dungeon wall",
+				"clown wallpaper"
+			],
+			"farmable": false,
+			"rarity": 37
+		},
+		"tinted window frame": {
+			"splicable": true,
+			"recipe": [
+				"dungeon wall",
+				"window frame"
+			],
+			"farmable": false,
+			"rarity": 26
+		},
+		"torn wallpaper": {
+			"splicable": true,
+			"recipe": [
+				"dungeon wall",
+				"red wallpaper"
+			],
+			"farmable": false,
+			"rarity": 18
+		},
+		"grass": {
+			"splicable": true,
+			"recipe": [
+				"soil block",
+				"cave wall"
+			],
+			"farmable": true,
+			"rarity": 2
+		},
+		"door": {
+			"splicable": true,
+			"recipe": [
+				"lava",
+				"magic stuff"
+			],
+			"farmable": false,
+			"rarity": 3
+		},
+		"jungle grass": {
+			"splicable": true,
+			"recipe": [
+				"wood block",
+				"grass"
+			],
+			"farmable": true,
+			"rarity": 4
+		},
+		"lily": {
+			"splicable": true,
+			"recipe": [
+				"grass",
+				"white brick"
+			],
+			"farmable": false,
+			"rarity": 4
+		},
+		"lava lamp": {
+			"splicable": true,
+			"recipe": [
+				"lava",
+				"glass block"
+			],
+			"farmable": false,
+			"rarity": 3
+		},
+		"mushroom": {
+			"splicable": true,
+			"recipe": [
+				"grass",
+				"magic stuff"
+			],
+			"farmable": false,
+			"rarity": 4
+		},
+		"sign": {
+			"splicable": true,
+			"recipe": [
+				"wood block",
+				"red brick"
+			],
+			"farmable": false,
+			"rarity": 4
+		},
+		"rose": {
+			"splicable": true,
+			"recipe": [
+				"grass",
+				"granite"
+			],
+			"farmable": true,
+			"rarity": 3
+		},
+		"sunflower": {
+			"splicable": true,
+			"recipe": [
+				"grass",
+				"yellow brick"
+			],
+			"farmable": false,
+			"rarity": 8
+		},
+		"wooden platform": {
+			"splicable": true,
+			"recipe": [
+				"wood block",
+				"magic stuff"
+			],
+			"farmable": false,
+			"rarity": 4
+		},
+		"torch": {
+			"splicable": true,
+			"recipe": [
+				"wood block",
+				"lava"
+			],
+			"farmable": false,
+			"rarity": 3
+		},
+		"classic painting": {
+			"splicable": true,
+			"recipe": [
+				"rose",
+				"sign"
+			],
+			"farmable": false,
+			"rarity": 6
+		},
+		"corn": {
+			"splicable": true,
+			"recipe": [
+				"sunflower",
+				"grass"
+			],
+			"farmable": false,
+			"rarity": 10
+		},
+		"fireplace": {
+			"splicable": true,
+			"recipe": [
+				"torch",
+				"granite"
+			],
+			"farmable": false,
+			"rarity": 5
+		},
+		"lantern": {
+			"splicable": true,
+			"recipe": [
+				"torch",
+				"glass block"
+			],
+			"farmable": false,
+			"rarity": 10
+		},
+		"rubber duck": {
+			"splicable": true,
+			"recipe": [
+				"sunflower",
+				"mushroom"
+			],
+			"farmable": false,
+			"rarity": 12
+		},
+		"small chest": {
+			"splicable": true,
+			"recipe": [
+				"wood block",
+				"door"
+			],
+			"farmable": false,
+			"rarity": 5
+		},
+		"wooden chair": {
+			"splicable": true,
+			"recipe": [
+				"wooden platform",
+				"door"
+			],
+			"farmable": false,
+			"rarity": 7
+		},
+		"wooden table": {
+			"splicable": true,
+			"recipe": [
+				"wooden platform",
+				"black block"
+			],
+			"farmable": false,
+			"rarity": 8
+		},
+		"armchair": {
+			"splicable": true,
+			"recipe": [
+				"wooden chair",
+				"mushroom"
+			],
+			"farmable": false,
+			"rarity": 7
+		},
+		"cabinet": {
+			"splicable": true,
+			"recipe": [
+				"small chest",
+				"wooden table"
+			],
+			"farmable": false,
+			"rarity": 8
+		},
+		"clay pot": {
+			"splicable": true,
+			"recipe": [
+				"small chest",
+				"rose"
+			],
+			"farmable": false,
+			"rarity": 7
+		},
+		"floor lamp": {
+			"splicable": true,
+			"recipe": [
+				"lantern",
+				"iron block"
+			],
+			"farmable": false,
+			"rarity": 15
+		},
+		"fruit tray": {
+			"splicable": true,
+			"recipe": [
+				"pineapple block",
+				"wooden table"
+			],
+			"farmable": false,
+			"rarity": 24
+		},
+		"garden gnome": {
+			"splicable": true,
+			"recipe": [
+				"rubber duck",
+				"stone background"
+			],
+			"farmable": false,
+			"rarity": 7
+		},
+		"glass door": {
+			"splicable": true,
+			"recipe": [
+				"window frame",
+				"door"
+			],
+			"farmable": false,
+			"rarity": 23
+		},
+		"old tv": {
+			"splicable": true,
+			"recipe": [
+				"classic painting",
+				"iron block"
+			],
+			"farmable": false,
+			"rarity": 8
+		},
+		"oven": {
+			"splicable": true,
+			"recipe": [
+				"small chest",
+				"torch"
+			],
+			"farmable": false,
+			"rarity": 8
+		},
+		"wardrobe": {
+			"splicable": true,
+			"recipe": [
+				"small chest",
+				"door"
+			],
+			"farmable": false,
+			"rarity": 8
+		},
+		"checkpoint": {
+			"splicable": true,
+			"recipe": [
+				"floor lamp",
+				"old tv"
+			],
+			"farmable": false,
+			"rarity": 28
+		},
+		"gramophone": {
+			"splicable": true,
+			"recipe": [
+				"old tv",
+				"wood block"
+			],
+			"farmable": false,
+			"rarity": 7
+		},
+		"huge metal fan": {
+			"splicable": true,
+			"recipe": [
+				"floor lamp",
+				"oven"
+			],
+			"farmable": false,
+			"rarity": 10
+		},
+		"led sign": {
+			"splicable": true,
+			"recipe": [
+				"old tv",
+				"sign"
+			],
+			"farmable": false,
+			"rarity": 8
+		},
+		"dungeon door": {
+			"splicable": true,
+			"recipe": [
+				"brown block",
+				"small chest"
+			],
+			"farmable": false,
+			"rarity": 9
+		},
+		"leopard armchair": {
+			"splicable": true,
+			"recipe": [
+				"armchair",
+				"fruit tray"
+			],
+			"farmable": false,
+			"rarity": 10
+		},
+		"makeup table": {
+			"splicable": true,
+			"recipe": [
+				"cabinet",
+				"wooden"
+			],
+			"farmable": false,
+			"rarity": 9
+		},
+		"portal": {
+			"splicable": true,
+			"recipe": [
+				"glass door",
+				"old tv"
+			],
+			"farmable": false,
+			"rarity": 10
+		},
+		"round metal table": {
+			"splicable": true,
+			"recipe": [
+				"glass door",
+				"wooden table"
+			],
+			"farmable": false,
+			"rarity": 9
+		},
+		"yard lamp": {
+			"splicable": true,
+			"recipe": [
+				"garden gnome",
+				"floor lamp"
+			],
+			"farmable": false,
+			"rarity": 10
+		},
+		"classic sculpture": {
+			"splicable": true,
+			"recipe": [
+				"garden gnome",
+				"classic painting"
+			],
+			"farmable": false,
+			"rarity": 22
+		},
+		"bookshelf": {
+			"splicable": true,
+			"recipe": [
+				"cabinet",
+				"yellow brick wallpaper"
+			],
+			"farmable": false,
+			"rarity": 38
+		},
+		"bed": {
+			"splicable": true,
+			"recipe": [
+				"blue jelly",
+				"armchair"
+			],
+			"farmable": false,
+			"rarity": 44
+		},
+		"fishbowl": {
+			"splicable": true,
+			"recipe": [
+				"portal",
+				"blue jelly"
+			],
+			"farmable": false,
+			"rarity": 56
+		},
+		"gargoyle": {
+			"splicable": true,
+			"recipe": [
+				"huge metal fan",
+				"garden gnome"
+			],
+			"farmable": false,
+			"rarity": 38
+		},
+		"gravestone": {
+			"splicable": true,
+			"recipe": [
+				"dungeon door",
+				"granite"
+			],
+			"farmable": false,
+			"rarity": 30
+		},
+		"metal platform": {
+			"splicable": true,
+			"recipe": [
+				"fire trap",
+				"iron block"
+			],
+			"farmable": false,
+			"rarity": 28
+		},
+		"microwave": {
+			"splicable": true,
+			"recipe": [
+				"portal",
+				"oven"
+			],
+			"farmable": false,
+			"rarity": 34
+		},
+		"modern painting": {
+			"splicable": true,
+			"recipe": [
+				"clown wallpaper",
+				"classic painting"
+			],
+			"farmable": false,
+			"rarity": 28
+		},
+		"note board": {
+			"splicable": true,
+			"recipe": [
+				"dungeon door",
+				"sign"
+			],
+			"farmable": false,
+			"rarity": 33
+		},
+		"tinted glass door": {
+			"splicable": true,
+			"recipe": [
+				"dungeon door",
+				"glass door"
+			],
+			"farmable": false,
+			"rarity": 42
+		},
+		"brazier": {
+			"splicable": true,
+			"recipe": [
+				"fire trap",
+				"clay pot"
+			],
+			"farmable": false,
+			"rarity": 30
+		},
+		"wooden hatch": {
+			"splicable": true,
+			"recipe": [
+				"light wooden background",
+				"dungeon door"
+			],
+			"farmable": false,
+			"rarity": 63
+		},
+		"metal trapdoor": {
+			"splicable": true,
+			"recipe": [
+				"metal platform",
+				"glass door"
+			],
+			"farmable": false,
+			"rarity": 41
+		},
+		"cloud platform": {
+			"splicable": true,
+			"recipe": [
+				"gravestone",
+				"ice block"
+			],
+			"farmable": false,
+			"rarity": 85
+		},
+		"vortex portal": {
+			"splicable": true,
+			"recipe": [
+				"portal",
+				"fishbowl"
+			],
+			"farmable": false,
+			"rarity": 8
+		},
+		"glue block": {
+			"splicable": true,
+			"recipe": [
+				"green jelly",
+				"ice block"
+			],
+			"farmable": false,
+			"rarity": 115
+		},
+		"poison trap": {
+			"splicable": true,
+			"recipe": [
+				"gravestone",
+				"fire trap"
+			],
+			"farmable": false,
+			"rarity": 52
+		},
+		"black t-shirt": {
+			"splicable": true,
+			"recipe": [
+				"granite",
+				"cave wall"
+			],
+			"farmable": false,
+			"rarity": 2
+		},
+		"red tights": {
+			"splicable": true,
+			"recipe": [
+				"lava",
+				"granite"
+			],
+			"farmable": false,
+			"rarity": 2
+		},
+		"green sneakers": {
+			"splicable": true,
+			"recipe": [
+				"water",
+				"granite"
+			],
+			"farmable": false,
+			"rarity": 34
+		},
+		"brown shoes": {
+			"splicable": true,
+			"recipe": [
+				"cave wall",
+				"grass"
+			],
+			"farmable": false,
+			"rarity": 3
+		},
+		"red pigtails": {
+			"splicable": true,
+			"recipe": [
+				"grass",
+				"lava"
+			],
+			"farmable": false,
+			"rarity": 3
+		},
+		"red skirt": {
+			"splicable": true,
+			"recipe": [
+				"red wallpaper",
+				"magic stuff"
+			],
+			"farmable": false,
+			"rarity": 4
+		},
+		"sunglasses": {
+			"splicable": true,
+			"recipe": [
+				"obsidian",
+				"glass block"
+			],
+			"farmable": false,
+			"rarity": 7
+		},
+		"sweat pants": {
+			"splicable": true,
+			"recipe": [
+				"cave wall",
+				"magic stuff"
+			],
+			"farmable": false,
+			"rarity": 3
+		},
+		"red headscarf": {
+			"splicable": true,
+			"recipe": [
+				"red wallpaper",
+				"lava"
+			],
+			"farmable": false,
+			"rarity": 3
+		},
+		"black tights": {
+			"splicable": true,
+			"recipe": [
+				"black brick",
+				"granite"
+			],
+			"farmable": false,
+			"rarity": 3
+		},
+		"beige stetson": {
+			"splicable": true,
+			"recipe": [
+				"sandy cave wall",
+				"yellow brick"
+			],
+			"farmable": false,
+			"rarity": 11
+		},
+		"grey t-shirt": {
+			"splicable": true,
+			"recipe": [
+				"white brick",
+				"soil block"
+			],
+			"farmable": false,
+			"rarity": 3
+		},
+		"grey slouchy beanie": {
+			"splicable": true,
+			"recipe": [
+				"metal plate",
+				"granite"
+			],
+			"farmable": false,
+			"rarity": 3
+		},
+		"black beard": {
+			"splicable": true,
+			"recipe": [
+				"lily",
+				"black block"
+			],
+			"farmable": false,
+			"rarity": 6
+		},
+		"black jacket": {
+			"splicable": true,
+			"recipe": [
+				"cave wall",
+				"black block"
+			],
+			"farmable": false,
+			"rarity": 5
+		},
+		"long blue dress": {
+			"splicable": true,
+			"recipe": [
+				"lily",
+				"blue block"
+			],
+			"farmable": false,
+			"rarity": 6
+		},
+		"red skull t-shirt": {
+			"splicable": true,
+			"recipe": [
+				"sign",
+				"cave wall"
+			],
+			"farmable": false,
+			"rarity": 4
+		},
+		"red jeans": {
+			"splicable": true,
+			"recipe": [
+				"cave wall",
+				"red block"
+			],
+			"farmable": false,
+			"rarity": 4
+		},
+		"rubber boots": {
+			"splicable": true,
+			"recipe": [
+				"cave wall",
+				"yellow block"
+			],
+			"farmable": false,
+			"rarity": 4
+		},
+		"stetson hat": {
+			"splicable": true,
+			"recipe": [
+				"sign",
+				"wooden platform"
+			],
+			"farmable": false,
+			"rarity": 6
+		},
+		"white ballerina shoes": {
+			"splicable": true,
+			"recipe": [
+				"lily",
+				"door"
+			],
+			"farmable": false,
+			"rarity": 6
+		},
+		"white tights": {
+			"splicable": true,
+			"recipe": [
+				"mushroom",
+				"white block"
+			],
+			"farmable": false,
+			"rarity": 6
+		},
+		"white sweater": {
+			"splicable": true,
+			"recipe": [
+				"cave wall",
+				"white block"
+			],
+			"farmable": false,
+			"rarity": 4
+		},
+		"black headscarf": {
+			"splicable": true,
+			"recipe": [
+				"mushroom",
+				"obsidian"
+			],
+			"farmable": false,
+			"rarity": 5
+		},
+		"blonde spiky hair": {
+			"splicable": true,
+			"recipe": [
+				"lava lamp",
+				"sign"
+			],
+			"farmable": false,
+			"rarity": 11
+		},
+		"yellow jersey": {
+			"splicable": true,
+			"recipe": [
+				"orange tile",
+				"yard lamp"
+			],
+			"farmable": false,
+			"rarity": 43
+		},
+		"long purple hair": {
+			"splicable": true,
+			"recipe": [
+				"mushroom",
+				"blue block"
+			],
+			"farmable": false,
+			"rarity": 12
+		},
+		"red ponytail": {
+			"splicable": true,
+			"recipe": [
+				"torch",
+				"mushroom"
+			],
+			"farmable": false,
+			"rarity": 7
+		},
+		"black ballerina shoes": {
+			"splicable": true,
+			"recipe": [
+				"iron block",
+				"mushroom"
+			],
+			"farmable": false,
+			"rarity": 7
+		},
+		"brown buzzcut": {
+			"splicable": true,
+			"recipe": [
+				"clear jelly",
+				"stone background"
+			],
+			"farmable": false,
+			"rarity": 7
+		},
+		"camo pants": {
+			"splicable": true,
+			"recipe": [
+				"camo pants",
+				"magic stuff"
+			],
+			"farmable": false,
+			"rarity": 3
+		},
+		"cargo pants": {
+			"splicable": true,
+			"recipe": [
+				"small chest",
+				"wooden chair"
+			],
+			"farmable": false,
+			"rarity": 3
+		},
+		"carneval mask": {
+			"splicable": true,
+			"recipe": [
+				"lava lamp",
+				"classic painting"
+			],
+			"farmable": false,
+			"rarity": 7
+		},
+		"green skirt": {
+			"splicable": true,
+			"recipe": [
+				"green block",
+				"classic painting"
+			],
+			"farmable": false,
+			"rarity": 8
+		},
+		"green wool cap": {
+			"splicable": true,
+			"recipe": [
+				"corn",
+				"lantern"
+			],
+			"farmable": false,
+			"rarity": 8
+		},
+		"hospital gown": {
+			"splicable": true,
+			"recipe": [
+				"clear jelly",
+				"lily"
+			],
+			"farmable": false,
+			"rarity": 7
+		},
+		"leather gloves": {
+			"splicable": true,
+			"recipe": [
+				"black block",
+				"small chest"
+			],
+			"farmable": false,
+			"rarity": 9
+		},
+		"loafers": {
+			"splicable": true,
+			"recipe": [
+				"stone background",
+				"small chest"
+			],
+			"farmable": false,
+			"rarity": 7
+		},
+		"long brown hair": {
+			"splicable": true,
+			"recipe": [
+				"torch",
+				"wooden table"
+			],
+			"farmable": false,
+			"rarity": 7
+		},
+		"long coat": {
+			"splicable": true,
+			"recipe": [
+				"iron block",
+				"black block"
+			],
+			"farmable": false,
+			"rarity": 7
+		},
+		"long curly brown hair": {
+			"splicable": true,
+			"recipe": [
+				"pineapple block",
+				"mushroom"
+			],
+			"farmable": false,
+			"rarity": 7
+		},
+		"moustache": {
+			"splicable": true,
+			"recipe": [
+				"sign",
+				"corn"
+			],
+			"farmable": false,
+			"rarity": 14
+		},
+		"nerdy glasses": {
+			"splicable": true,
+			"recipe": [
+				"window frame",
+				"black block"
+			],
+			"farmable": false,
+			"rarity": 7
+		},
+		"one piece": {
+			"splicable": true,
+			"recipe": [
+				"lava lamp",
+				"rubber duck"
+			],
+			"farmable": false,
+			"rarity": 7
+		},
+		"raincoat": {
+			"splicable": true,
+			"recipe": [
+				"rubber duck",
+				"iron block"
+			],
+			"farmable": false,
+			"rarity": 8
+		},
+		"red blouse": {
+			"splicable": true,
+			"recipe": [
+				"flower wallpaper",
+				"red block"
+			],
+			"farmable": false,
+			"rarity": 7
+		},
+		"red sneakers": {
+			"splicable": true,
+			"recipe": [
+				"rubber duck",
+				"mushroom"
+			],
+			"farmable": false,
+			"rarity": 7
+		},
+		"saggy pants": {
+			"splicable": true,
+			"recipe": [
+				"rose",
+				"blue block"
+			],
+			"farmable": false,
+			"rarity": 11
+		},
+		"uggie boots": {
+			"splicable": true,
+			"recipe": [
+				"sunflower",
+				"blue block"
+			],
+			"farmable": false,
+			"rarity": 6
+		},
+		"white dress": {
+			"splicable": true,
+			"recipe": [
+				"lily",
+				"window frame"
+			],
+			"farmable": false,
+			"rarity": 7
+		},
+		"white dress shirt": {
+			"splicable": true,
+			"recipe": [
+				"classic painting",
+				"white block"
+			],
+			"farmable": false,
+			"rarity": 7
+		},
+		"yellow skater dress": {
+			"splicable": true,
+			"recipe": [
+				"pineapple block",
+				"lily"
+			],
+			"farmable": false,
+			"rarity": 7
+		},
+		"pink sneakers": {
+			"splicable": true,
+			"recipe": [
+				"pink block",
+				"lily"
+			],
+			"farmable": false,
+			"rarity": 13
+		},
+		"light green maxi dress d-cut": {
+			"splicable": true,
+			"recipe": [
+				"green block",
+				"jungle grass"
+			],
+			"farmable": false,
+			"rarity": 20
+		},
+		"light green maxi dress": {
+			"splicable": true,
+			"recipe": [
+				"flower wallpaper",
+				"jungle grass"
+			],
+			"farmable": false,
+			"rarity": 10
+		},
+		"yellow maxi skirt": {
+			"splicable": true,
+			"recipe": [
+				"flower wallpaper",
+				"grass"
+			],
+			"farmable": false,
+			"rarity": 8
+		},
+		"blue skull skirt": {
+			"splicable": true,
+			"recipe": [
+				"fireplace",
+				"light blue block"
+			],
+			"farmable": false,
+			"rarity": 16
+		},
+		"black headphones": {
+			"splicable": true,
+			"recipe": [
+				"old tv",
+				"iron block"
+			],
+			"farmable": false,
+			"rarity": 9
+		},
+		"black leather pants": {
+			"splicable": true,
+			"recipe": [
+				"armchair",
+				"rubber duck"
+			],
+			"farmable": false,
+			"rarity": 9
+		},
+		"brown paper bag": {
+			"splicable": true,
+			"recipe": [
+				"small chest",
+				"shoji"
+			],
+			"farmable": false,
+			"rarity": 9
+		},
+		"brown ponytail": {
+			"splicable": true,
+			"recipe": [
+				"brown block",
+				"corn"
+			],
+			"farmable": false,
+			"rarity": 9
+		},
+		"clown hair": {
+			"splicable": true,
+			"recipe": [
+				"rubber duck",
+				"fruit tray"
+			],
+			"farmable": false,
+			"rarity": 9
+		},
+		"clown nose": {
+			"splicable": true,
+			"recipe": [
+				"rubber duck",
+				"strawberry block"
+			],
+			"farmable": false,
+			"rarity": 9
+		},
+		"footwraps": {
+			"splicable": true,
+			"recipe": [
+				"mushroom",
+				"shoji"
+			],
+			"farmable": false,
+			"rarity": 8
+		},
+		"green fedora": {
+			"splicable": true,
+			"recipe": [
+				"green block",
+				"clay pot"
+			],
+			"farmable": false,
+			"rarity": 9
+		},
+		"green jeans": {
+			"splicable": true,
+			"recipe": [
+				"light blue block",
+				"yellow jelly"
+			],
+			"farmable": false,
+			"rarity": 9
+		},
+		"jean shorts": {
+			"splicable": true,
+			"recipe": [
+				"light blue block",
+				"cabinet"
+			],
+			"farmable": false,
+			"rarity": 9
+		},
+		"long beard": {
+			"splicable": true,
+			"recipe": [
+				"armchair",
+				"wood panel"
+			],
+			"farmable": false,
+			"rarity": 8
+		},
+		"pink cap": {
+			"splicable": true,
+			"recipe": [
+				"pink block",
+				"clay pot"
+			],
+			"farmable": false,
+			"rarity": 9
+		},
+		"red ballerina shoes": {
+			"splicable": true,
+			"recipe": [
+				"strawberry block",
+				"lantern"
+			],
+			"farmable": false,
+			"rarity": 9
+		},
+		"skimask": {
+			"splicable": true,
+			"recipe": [
+				"iron mask",
+				"shoji"
+			],
+			"farmable": false,
+			"rarity": 9
+		},
+		"spiky black hair": {
+			"splicable": true,
+			"recipe": [
+				"spike trap",
+				"fruit tray"
+			],
+			"farmable": false,
+			"rarity": 10
+		},
+		"suede jacket": {
+			"splicable": true,
+			"recipe": [
+				"brown block",
+				"yellow block"
+			],
+			"farmable": false,
+			"rarity": 8
+		},
+		"tiger tail": {
+			"splicable": true,
+			"recipe": [
+				"pineapple block",
+				"garden gnome"
+			],
+			"farmable": false,
+			"rarity": 31
+		},
+		"white gloves": {
+			"splicable": true,
+			"recipe": [
+				"armchair",
+				"white block"
+			],
+			"farmable": false,
+			"rarity": 8
+		},
+		"yellow crox": {
+			"splicable": true,
+			"recipe": [
+				"rubber duck",
+				"yellow jelly"
+			],
+			"farmable": false,
+			"rarity": 9
+		},
+		"green cape": {
+			"splicable": true,
+			"recipe": [
+				"blue block",
+				"yellow jelly"
+			],
+			"farmable": false,
+			"rarity": 35
+		},
+		"fancy tinted glasses": {
+			"splicable": true,
+			"recipe": [
+				"fruit tray",
+				"window frame"
+			],
+			"farmable": false,
+			"rarity": 34
+		},
+		"white dress d-cut": {
+			"splicable": true,
+			"recipe": [
+				"glass tile",
+				"lily"
+			],
+			"farmable": false,
+			"rarity": 15
+		},
+		"blue hair": {
+			"splicable": true,
+			"recipe": [
+				"blue jelly",
+				"lily"
+			],
+			"farmable": false,
+			"rarity": 37
+		},
+		"clown suit": {
+			"splicable": true,
+			"recipe": [
+				"clown wallpaper",
+				"fruit tray"
+			],
+			"farmable": false,
+			"rarity": 45
+		},
+		"eye patch": {
+			"splicable": true,
+			"recipe": [
+				"dotted pink block",
+				"spike trap"
+			],
+			"farmable": false,
+			"rarity": 36
+		},
+		"flash shirt": {
+			"splicable": true,
+			"recipe": [
+				"strawberry block",
+				"fire trap"
+			],
+			"farmable": false,
+			"rarity": 33
+		},
+		"grey hoodie": {
+			"splicable": true,
+			"recipe": [
+				"dungeon wall",
+				"grey block"
+			],
+			"farmable": false,
+			"rarity": 24
+		},
+		"hard hat": {
+			"splicable": true,
+			"recipe": [
+				"yellow brick wallpaper",
+				"clay pot"
+			],
+			"farmable": false,
+			"rarity": 33
+		},
+		"heart shirt": {
+			"splicable": true,
+			"recipe": [
+				"strawberry block",
+				"portal"
+			],
+			"farmable": false,
+			"rarity": 40
+		},
+		"light blue shoes": {
+			"splicable": true,
+			"recipe": [
+				"blue jelly",
+				"marble"
+			],
+			"farmable": false,
+			"rarity": 34
+		},
+		"light blue skater dress": {
+			"splicable": true,
+			"recipe": [
+				"white block",
+				"blue jelly"
+			],
+			"farmable": false,
+			"rarity": 37
+		},
+		"long black hair": {
+			"splicable": true,
+			"recipe": [
+				"huge metal fan",
+				"spike trap"
+			],
+			"farmable": false,
+			"rarity": 37
+		},
+		"mime mask": {
+			"splicable": true,
+			"recipe": [
+				"gramophone",
+				"clown wallpaper"
+			],
+			"farmable": false,
+			"rarity": 36
+		},
+		"monocle": {
+			"splicable": true,
+			"recipe": [
+				"glass block",
+				"gramophone"
+			],
+			"farmable": false,
+			"rarity": 21
+		},
+		"pink dress": {
+			"splicable": true,
+			"recipe": [
+				"rose",
+				"dotted pink block"
+			],
+			"farmable": false,
+			"rarity": 25
+		},
+		"red fedora": {
+			"splicable": true,
+			"recipe": [
+				"small chest",
+				"red jelly"
+			],
+			"farmable": false,
+			"rarity": 30
+		},
+		"short sword": {
+			"splicable": true,
+			"recipe": [
+				"huge metal fan",
+				"fire trap"
+			],
+			"farmable": false,
+			"rarity": 999
+		},
+		"wolf hat": {
+			"splicable": true,
+			"recipe": [
+				"fire trap",
+				"grey block"
+			],
+			"farmable": false,
+			"rarity": 30
+		},
+		"blue camo pants": {
+			"splicable": true,
+			"recipe": [
+				"leopard armchair",
+				"light blue block"
+			],
+			"farmable": false,
+			"rarity": 47
+		},
+		"blue beanie": {
+			"splicable": true,
+			"recipe": [
+				"magic stuff",
+				"blue jelly"
+			],
+			"farmable": false,
+			"rarity": 35
+		},
+		"white sneakers": {
+			"splicable": true,
+			"recipe": [
+				"portal",
+				"clay pot"
+			],
+			"farmable": false,
+			"rarity": 34
+		},
+		"purple jersey": {
+			"splicable": true,
+			"recipe": [
+				"purple block",
+				"kiwi block"
+			],
+			"farmable": false,
+			"rarity": 9
+		}
+	},
+	"whitelist": []
+}

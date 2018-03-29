@@ -1,0 +1,13 @@
+{
+	"ssl": false,
+	"domain": "localhost",
+  "endpoints": ["growtopia", "pixelworlds"],
+  "datafiles": {
+      "growtopia": "./data/growtopia.json",
+      "pixelworlds": "./data/pixelworlds.json"
+  },
+  "disclaimer": {
+      "growtopia": "<h4>Any image material used on this page is property of <span>Ubisoft Entertainment</span>, <span>Robinson Technologies</span> and/or <span>Hamumu Software</span></h4>",
+      "pixelworlds": "<h4>Any image material used on this page is property of <span>Kukouri Mobile Entertainment Ltd.</span></h4>"
+  }
+}

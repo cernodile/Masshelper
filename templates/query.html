@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+  <head>
+    <title>Masshelper</title>
+    <link rel="stylesheet" type="text/css" href="/global.css" charset="utf-8">
+    <meta property="og:determiner" content="the"/>
+    <meta property="og:title" content="Masshelper"/>
+    <meta property="og:description" content="Masshelper is the new, and best way to look up how to massproduce a certain splicable item! Tons of work has went into this, and we're looking to expand our database as soon as new updates come out!"/>
+    <meta property="og:type" content="website"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body><span class="warning">Javascript must be enabled to use search feature!</span>
+    <div id="result">
+      <h1>Masshelper - Your new secret to success</h1>
+      <h2>Your query resulted in:</h2>
+      <br>
+      <h2 style="color: red;">DEPRECATION WARNING: Masshelper will be officialy shut down May 8th, 2018.</h2>
+      <h3>If you still depend on masshelper, don't worry, I've released the source code of it to <a href="https://github.com/cernodile/Masshelper">GitHub</a></h3>
+      ${result}
+      <form action="javascript:query()">
+        <label>Search: <input id="search" type="search" placeholder="Item"></label>
+        <input type="submit" value="Search">
+        <div id="options">
+          <label>Compact Mode: <input id="compact" type="checkbox"></label>
+          <br>
+          <label>Classic Style: <input id="classic" type="checkbox"></label>
+          <br>
+          <label>Possibilities Mode: <input id="pb" type="checkbox"></label>
+        </div>
+        <span class="comment" style="font-size:1.1em;">Please note that <span class="hl">Possibilities Mode</span> is a standalone option and won't work with other options!</span>
+        <span class="comment" style="font-size:0.9em;">Also worth noting that <span class="hl">Classic Style</span> would be best fitting for handheld devices.</span>
+        <span class="comment" style="font-size:0.8em;">If you want to save yourself some time and potential world locks, you can try using <span class="hl">Compact Mode</span>.</span>
+      </form>
+      <br>
+      <a style="font-weight:bold;" href="/">Return to homepage</a>
+      ${disclaimer}
+      <br>
+    </div>
+    <script>
+      if (!window.location.origin) {
+        window.location.origin = window.location.protocol + "//" + window.location.hostname + (window.location.port ? ':' + window.location.port: '');
+      }
+      var parseUrl = location.pathname.split("/");
+      if (parseUrl[1] === "pb") {
+        document.getElementById("pb").checked = true;
+      }
+      if (parseUrl[parseUrl.length - 2] === "true" || parseUrl[parseUrl.length - 2] === "compact") {
+        document.getElementById("compact").checked = true;
+      }
+      if (parseUrl[parseUrl.length - 1] === "false") {
+        document.getElementById("classic").checked = true;
+      }
+      document.body.removeChild(document.body.firstChild);
+      window.endpoint = ${endpoint}
+      function query () {
+        var x = document.getElementById("search");
+        if (document.getElementById("pb").checked) return location.href = location.origin + "/pb/search/" + window.endpoint + "/" + x.value;
+        location.href = location.origin + "/search/" + window.endpoint + "/" + x.value + (document.getElementById("compact").checked ? "/compact" : "/false") + (document.getElementById("classic").checked ? "/false" : "/true");
+      }
+    </script>
+  </body>
+</html>
